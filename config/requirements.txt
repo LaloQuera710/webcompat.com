@@ -10,5 +10,6 @@ Pillow==9.3.0
 python-dotenv==0.15.0
 requests==2.25.1
 ua-parser==0.10.0
-Werkzeug==2.0.1
+Werkzeug==3.1.5
 WTForms==2.3.3
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
